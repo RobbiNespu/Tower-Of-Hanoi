@@ -15,19 +15,20 @@ void move(int num_disk, char *source, char *intermediate , char *destination)
 	}
 }
 
-void main(void)
+int main(void)
 {
 	cout<<"\n*********************************************\n";
 	cout<<"     Aturcara Teknik Rekursif Menara Hanoi";
 	cout<<"\n*********************************************\n";
 
 	int bil_disk;
-	
+
 	cout<<"Masukan bilangan cakera :";
 	cin>>bil_disk;
 
 	move(bil_disk, "Tiang A", "Tiang B", "Tiang C");
 
 	cout<<"\n\n";
+    return 0;
 }
 
